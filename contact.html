@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dr. Swaroop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Dr. Swaroop</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="availability.html" class="nav-link">Availability</a>
+                <a href="treatments.html" class="nav-link">Treatments</a>
+                <a href="postop.html" class="nav-link">Post-Op Care</a>
+                <a href="blog.html" class="nav-link">Articles</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch to schedule your consultation or ask any questions</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="clinic">Preferred Clinic Location</label>
+                            <select id="clinic" name="clinic">
+                                <option value="">Select a clinic</option>
+                                <option value="bloom-jayanagar">Bloom Aesthetics - Jayanagar</option>
+                                <option value="skintique-indiranagar">Skintique Clinic - Indiranagar</option>
+                                <option value="carewell-koramangala">CareWell Centre - Koramangala</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="treatment">Treatment of Interest</label>
+                            <select id="treatment" name="treatment">
+                                <option value="">Select a treatment</option>
+                                <option value="rhinoplasty">Rhinoplasty</option>
+                                <option value="facelift">Facelift</option>
+                                <option value="breast-augmentation">Breast Augmentation</option>
+                                <option value="liposuction">Liposuction</option>
+                                <option value="tummy-tuck">Tummy Tuck</option>
+                                <option value="bbl">Brazilian Butt Lift</option>
+                                <option value="botox">Botox</option>
+                                <option value="fillers">Dermal Fillers</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Please describe your goals, questions, or any specific concerns..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-content">
+                            <h4>Primary Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="contact-item-content">
+                            <h4>WhatsApp</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-content">
+                            <h4>Email</h4>
+                            <p>info@drname.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-item-content">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact Actions -->
+                    <div class="quick-actions">
+                        <h3>Quick Contact</h3>
+                        <div class="action-buttons">
+                            <a href="tel:+919876543210" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://wa.me/919876543210" target="_blank" class="btn btn-secondary">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clinic Locations -->
+            <div class="clinic-locations-section">
+                <h2 class="section-title">Our Clinic Locations</h2>
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <div class="location-header">
+                            <h3>Bloom Aesthetics</h3>
+                            <span class="location-badge primary">Primary Clinic</span>
+                        </div>
+                        <div class="location-details">
+                            <div class="location-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>123 Main Road, Jayanagar<br>Bangalore - 560011</p>
+                            </div>
+                            <div class="location-hours">
+                                <i class="fas fa-clock"></i>
+                                <p>Monday: 10:00 AM - 5:00 PM<br>Saturday: 2:00 PM - 6:00 PM</p>
+                            </div>
+                            <div class="location-contact">
+                                <i class="fas fa-phone"></i>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-header">
+                            <h3>Skintique Clinic</h3>
+                            <span class="location-badge">Branch</span>
+                        </div>
+                        <div class="location-details">
+                            <div class="location-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>456 CMH Road, Indiranagar<br>Bangalore - 560038</p>
+                            </div>
+                            <div class="location-hours">
+                                <i class="fas fa-clock"></i>
+                                <p>Wednesday: 11:00 AM - 4:00 PM</p>
+                            </div>
+                            <div class="location-contact">
+                                <i class="fas fa-phone"></i>
+                                <p>+91 98765 43211</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-header">
+                            <h3>CareWell Centre</h3>
+                            <span class="location-badge">Branch</span>
+                        </div>
+                        <div class="location-details">
+                            <div class="location-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>789 Forum Mall Road, Koramangala<br>Bangalore - 560095</p>
+                            </div>
+                            <div class="location-hours">
+                                <i class="fas fa-clock"></i>
+                                <p>Friday: 9:00 AM - 1:00 PM</p>
+                            </div>
+                            <div class="location-contact">
+                                <i class="fas fa-phone"></i>
+                                <p>+91 98765 43212</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <h2 class="section-title">Find Our Primary Location</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Interactive Map</h3>
+                        <p>Bloom Aesthetics - Jayanagar</p>
+                        <p>123 Main Road, Bangalore - 560011</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>How do I schedule a consultation?</h4>
+                        <p>You can schedule a consultation by calling us, sending a WhatsApp message, or filling out the contact form above. We'll get back to you within 24 hours to confirm your appointment.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Do you offer virtual consultations?</h4>
+                        <p>Yes, we offer virtual consultations for initial discussions and follow-up appointments. Please mention your preference when booking your appointment.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What should I bring to my consultation?</h4>
+                        <p>Please bring a valid ID, any relevant medical records, a list of current medications, and photos or references of your desired results if applicable.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Is there a consultation fee?</h4>
+                        <p>Yes, we charge a consultation fee which can be applied toward your treatment if you decide to proceed. Please contact us for current consultation fees.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emergency Contact -->
+            <div class="emergency-section">
+                <div class="emergency-content">
+                    <div class="emergency-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="emergency-text">
+                        <h3>Post-Surgical Emergency?</h3>
+                        <p>If you're experiencing a medical emergency related to your surgery, please call us immediately or visit the nearest emergency room.</p>
+                        <a href="tel:+919876543210" class="btn btn-primary">
+                            <i class="fas fa-phone"></i> Emergency Contact: +91 98765 43210
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Swaroop</h3>
+                    <p>Professional plastic surgery services with a focus on natural results and patient care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="availability.html">Availability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+                        <p><i class="fas fa-envelope"></i> info@drname.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Swaroop. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

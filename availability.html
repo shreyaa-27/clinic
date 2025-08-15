@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Availability - Dr. Swaroop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Dr. Swaroop</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="availability.html" class="nav-link active">Availability</a>
+                <a href="treatments.html" class="nav-link">Treatments</a>
+                <a href="postop.html" class="nav-link">Post-Op Care</a>
+                <a href="blog.html" class="nav-link">Articles</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Clinic Availability</h1>
+            <p>Find Dr. Swaroop at one of our convenient clinic locations throughout the week</p>
+        </div>
+    </section>
+
+    <!-- Availability Content -->
+    <section class="page-content">
+        <div class="container">
+            <!-- Weekly Schedule -->
+            <div class="schedule-section">
+                <h2 class="section-title">Weekly Schedule</h2>
+                <div class="schedule-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Clinic Name</th>
+                                <th>Location</th>
+                                <th>Timings</th>
+                                <th>Contact</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Monday</strong></td>
+                                <td>Bloom Aesthetics</td>
+                                <td>Jayanagar, Bangalore</td>
+                                <td>10:00 AM - 5:00 PM</td>
+                                <td>
+                                    <div class="clinic-contact">
+                                        <a href="#" class="contact-btn phone-btn phone-link" data-phone="+919876543210">
+                                            <i class="fas fa-phone"></i> Call
+                                        </a>
+                                        <a href="#" class="contact-btn whatsapp-btn whatsapp-link" data-phone="+919876543210" data-message="Hello, I would like to book an appointment at Bloom Aesthetics on Monday.">
+                                            <i class="fab fa-whatsapp"></i> WhatsApp
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tuesday</strong></td>
+                                <td colspan="4" style="text-align: center; color: #7f8c8d; font-style: italic;">
+                                    No consultations - Surgery Day
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Wednesday</strong></td>
+                                <td>Skintique Clinic</td>
+                                <td>Indiranagar, Bangalore</td>
+                                <td>11:00 AM - 4:00 PM</td>
+                                <td>
+                                    <div class="clinic-contact">
+                                        <a href="#" class="contact-btn phone-btn phone-link" data-phone="+919876543211">
+                                            <i class="fas fa-phone"></i> Call
+                                        </a>
+                                        <a href="#" class="contact-btn whatsapp-btn whatsapp-link" data-phone="+919876543211" data-message="Hello, I would like to book an appointment at Skintique Clinic on Wednesday.">
+                                            <i class="fab fa-whatsapp"></i> WhatsApp
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Thursday</strong></td>
+                                <td colspan="4" style="text-align: center; color: #7f8c8d; font-style: italic;">
+                                    No consultations - Surgery Day
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Friday</strong></td>
+                                <td>CareWell Centre</td>
+                                <td>Koramangala, Bangalore</td>
+                                <td>9:00 AM - 1:00 PM</td>
+                                <td>
+                                    <div class="clinic-contact">
+                                        <a href="#" class="contact-btn phone-btn phone-link" data-phone="+919876543212">
+                                            <i class="fas fa-phone"></i> Call
+                                        </a>
+                                        <a href="#" class="contact-btn whatsapp-btn whatsapp-link" data-phone="+919876543212" data-message="Hello, I would like to book an appointment at CareWell Centre on Friday.">
+                                            <i class="fab fa-whatsapp"></i> WhatsApp
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Saturday</strong></td>
+                                <td>Bloom Aesthetics</td>
+                                <td>Jayanagar, Bangalore</td>
+                                <td>2:00 PM - 6:00 PM</td>
+                                <td>
+                                    <div class="clinic-contact">
+                                        <a href="#" class="contact-btn phone-btn phone-link" data-phone="+919876543210">
+                                            <i class="fas fa-phone"></i> Call
+                                        </a>
+                                        <a href="#" class="contact-btn whatsapp-btn whatsapp-link" data-phone="+919876543210" data-message="Hello, I would like to book an appointment at Bloom Aesthetics on Saturday.">
+                                            <i class="fab fa-whatsapp"></i> WhatsApp
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sunday</strong></td>
+                                <td colspan="4" style="text-align: center; color: #7f8c8d; font-style: italic;">
+                                    Closed - Rest Day
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Clinic Details -->
+            <div class="clinics-section">
+                <h2 class="section-title">Our Clinic Locations</h2>
+                <div class="clinics-grid">
+                    <div class="clinic-card">
+                        <div class="clinic-header">
+                            <h3><i class="fas fa-clinic-medical"></i> Bloom Aesthetics</h3>
+                            <div class="clinic-days">Monday & Saturday</div>
+                        </div>
+                        <div class="clinic-body">
+                            <div class="clinic-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <p><strong>Address:</strong></p>
+                                    <p>123 Main Road, Jayanagar<br>Bangalore - 560011</p>
+                                </div>
+                            </div>
+                            <div class="clinic-timing">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <p><strong>Timings:</strong></p>
+                                    <p>Mon: 10:00 AM - 5:00 PM<br>Sat: 2:00 PM - 6:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="clinic-contact-info">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <p><strong>Contact:</strong></p>
+                                    <p>+91 98765 43210</p>
+                                </div>
+                            </div>
+                            <div class="clinic-actions">
+                                <a href="#" class="btn btn-primary phone-link" data-phone="+919876543210">
+                                    <i class="fas fa-phone"></i> Call Now
+                                </a>
+                                <a href="#" class="btn btn-secondary whatsapp-link" data-phone="+919876543210">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clinic-card">
+                        <div class="clinic-header">
+                            <h3><i class="fas fa-clinic-medical"></i> Skintique Clinic</h3>
+                            <div class="clinic-days">Wednesday</div>
+                        </div>
+                        <div class="clinic-body">
+                            <div class="clinic-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <p><strong>Address:</strong></p>
+                                    <p>456 CMH Road, Indiranagar<br>Bangalore - 560038</p>
+                                </div>
+                            </div>
+                            <div class="clinic-timing">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <p><strong>Timings:</strong></p>
+                                    <p>Wed: 11:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="clinic-contact-info">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <p><strong>Contact:</strong></p>
+                                    <p>+91 98765 43211</p>
+                                </div>
+                            </div>
+                            <div class="clinic-actions">
+                                <a href="#" class="btn btn-primary phone-link" data-phone="+919876543211">
+                                    <i class="fas fa-phone"></i> Call Now
+                                </a>
+                                <a href="#" class="btn btn-secondary whatsapp-link" data-phone="+919876543211">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clinic-card">
+                        <div class="clinic-header">
+                            <h3><i class="fas fa-clinic-medical"></i> CareWell Centre</h3>
+                            <div class="clinic-days">Friday</div>
+                        </div>
+                        <div class="clinic-body">
+                            <div class="clinic-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <p><strong>Address:</strong></p>
+                                    <p>789 Forum Mall Road, Koramangala<br>Bangalore - 560095</p>
+                                </div>
+                            </div>
+                            <div class="clinic-timing">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <p><strong>Timings:</strong></p>
+                                    <p>Fri: 9:00 AM - 1:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="clinic-contact-info">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <p><strong>Contact:</strong></p>
+                                    <p>+91 98765 43212</p>
+                                </div>
+                            </div>
+                            <div class="clinic-actions">
+                                <a href="#" class="btn btn-primary phone-link" data-phone="+919876543212">
+                                    <i class="fas fa-phone"></i> Call Now
+                                </a>
+                                <a href="#" class="btn btn-secondary whatsapp-link" data-phone="+919876543212">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Important Notes -->
+            <div class="notes-section">
+                <h2 class="section-title">Important Notes</h2>
+                <div class="notes-grid">
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Appointments Required</h3>
+                        <p>All consultations are by appointment only. Please call or WhatsApp to schedule your visit.</p>
+                    </div>
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Punctuality</h3>
+                        <p>Please arrive 15 minutes early for your appointment to complete any necessary paperwork.</p>
+                    </div>
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Emergency Contact</h3>
+                        <p>For urgent matters or emergencies, please call our primary number: +91 98765 43210</p>
+                    </div>
+                    <div class="note-card">
+                        <div class="note-icon">
+                            <i class="fas fa-calendar-times"></i>
+                        </div>
+                        <h3>Cancellation Policy</h3>
+                        <p>Please provide at least 24 hours notice for appointment cancellations or rescheduling.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="contact-cta">
+                <div class="cta-content">
+                    <h2>Ready to Schedule Your Consultation?</h2>
+                    <p>Choose your preferred clinic location and get in touch with us today</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        <a href="treatments.html" class="btn btn-outline">View Treatments</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Swaroop</h3>
+                    <p>Professional plastic surgery services with a focus on natural results and patient care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="availability.html">Availability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+                        <p><i class="fas fa-envelope"></i> info@drname.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Swaroop. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

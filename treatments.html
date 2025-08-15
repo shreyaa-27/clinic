@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treatments - Dr. Swaroop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Dr. Swaroop</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="availability.html" class="nav-link">Availability</a>
+                <a href="treatments.html" class="nav-link active">Treatments</a>
+                <a href="postop.html" class="nav-link">Post-Op Care</a>
+                <a href="blog.html" class="nav-link">Articles</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Treatments</h1>
+            <p>Comprehensive plastic surgery solutions tailored to enhance your natural beauty</p>
+        </div>
+    </section>
+
+    <!-- Treatments Content -->
+    <section class="page-content">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Treatments</button>
+                <button class="filter-btn" data-filter="face">Face</button>
+                <button class="filter-btn" data-filter="body">Body</button>
+                <button class="filter-btn" data-filter="non-surgical">Non-Surgical</button>
+            </div>
+
+            <!-- Treatments Grid -->
+            <div class="treatments-grid">
+                <!-- Face Treatments -->
+                <div class="treatment-card" data-category="face">
+                    <div class="treatment-header">
+                        <h3>Rhinoplasty (Nose Surgery)</h3>
+                        <span class="treatment-category-tag">Facial</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Reshape and refine your nose for improved facial harmony and breathing function. Our advanced techniques ensure natural-looking results that complement your facial features.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">2-3 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">1-2 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹1,50,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="face">
+                    <div class="treatment-header">
+                        <h3>Facelift & Neck Lift</h3>
+                        <span class="treatment-category-tag">Facial</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Turn back the clock with our comprehensive facelift procedures that address sagging skin, deep wrinkles, and loss of facial volume for a more youthful appearance.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">4-6 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">2-3 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹2,50,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="face">
+                    <div class="treatment-header">
+                        <h3>Blepharoplasty (Eyelid Surgery)</h3>
+                        <span class="treatment-category-tag">Facial</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Refresh your appearance by removing excess skin and fat from the upper and lower eyelids, creating a more alert and youthful look.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">1-2 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">1-2 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">Local/Sedation</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹80,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body Treatments -->
+                <div class="treatment-card" data-category="body">
+                    <div class="treatment-header">
+                        <h3>Liposuction</h3>
+                        <span class="treatment-category-tag">Body Contouring</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Remove stubborn fat deposits from various body areas including abdomen, thighs, arms, and flanks to achieve your desired body contour.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">2-4 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">1-2 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General/Local</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹1,20,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="body">
+                    <div class="treatment-header">
+                        <h3>Tummy Tuck (Abdominoplasty)</h3>
+                        <span class="treatment-category-tag">Body Contouring</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Achieve a flatter, firmer abdomen by removing excess skin and fat while tightening weakened abdominal muscles for a more toned appearance.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">3-5 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">2-4 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹2,00,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="body">
+                    <div class="treatment-header">
+                        <h3>Brazilian Butt Lift (BBL)</h3>
+                        <span class="treatment-category-tag">Body Contouring</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Enhance your curves naturally by transferring your own fat to create a fuller, more shapely buttock contour while slimming donor areas.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">3-4 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">2-3 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹2,50,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="body">
+                    <div class="treatment-header">
+                        <h3>Breast Augmentation</h3>
+                        <span class="treatment-category-tag">Breast Surgery</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Enhance breast size and shape using high-quality implants or fat transfer techniques to achieve your desired proportions and boost confidence.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">2-3 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">1-2 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">General</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹1,80,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Non-Surgical Treatments -->
+                <div class="treatment-card" data-category="non-surgical">
+                    <div class="treatment-header">
+                        <h3>Botox Injections</h3>
+                        <span class="treatment-category-tag">Non-Surgical</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Smooth away wrinkles and fine lines with precise Botox injections that relax facial muscles for a more youthful, refreshed appearance.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">15-30 minutes</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">None</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">Topical</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹15,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="non-surgical">
+                    <div class="treatment-header">
+                        <h3>Dermal Fillers</h3>
+                        <span class="treatment-category-tag">Non-Surgical</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Restore volume and smooth wrinkles with premium hyaluronic acid fillers for lips, cheeks, and facial contouring with immediate results.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">30-60 minutes</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">Minimal</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">Topical</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹25,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="non-surgical">
+                    <div class="treatment-header">
+                        <h3>Chemical Peels</h3>
+                        <span class="treatment-category-tag">Non-Surgical</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Improve skin texture, tone, and clarity with customized chemical peels that address acne scars, sun damage, and signs of aging.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">30-45 minutes</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">3-7 days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">None</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹8,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="treatment-card" data-category="non-surgical">
+                    <div class="treatment-header">
+                        <h3>Thread Lift</h3>
+                        <span class="treatment-category-tag">Non-Surgical</span>
+                    </div>
+                    <div class="treatment-body">
+                        <p>Achieve subtle lifting and tightening of facial tissues with dissolvable threads for a non-surgical facelift alternative.</p>
+                        <div class="treatment-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Duration:</span>
+                                <span class="detail-value">1-2 hours</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bed"></i>
+                                <span class="detail-label">Downtime:</span>
+                                <span class="detail-value">3-5 days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-syringe"></i>
+                                <span class="detail-label">Anesthesia:</span>
+                                <span class="detail-value">Local</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span class="detail-label">Starting from:</span>
+                                <span class="detail-value">₹60,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Consultation CTA -->
+            <div class="consultation-cta">
+                <div class="cta-content">
+                    <h2>Ready to Begin Your Transformation?</h2>
+                    <p>Schedule a personalized consultation to discuss your goals and learn about the best treatment options for you</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+                        <a href="availability.html" class="btn btn-secondary">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Swaroop</h3>
+                    <p>Professional plastic surgery services with a focus on natural results and patient care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="availability.html">Availability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+                        <p><i class="fas fa-envelope"></i> info@drname.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Swaroop. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
